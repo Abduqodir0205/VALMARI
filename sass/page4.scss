@@ -126,6 +126,12 @@
 
 // main2
 
+.main2col{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
 .main2{
     .main2__item1{
         margin-top: 175px;
@@ -150,6 +156,45 @@
             display: flex;
             align-content: center;
             justify-content: space-between;
+            .main2-bottom__right{
+                width: 590px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                h1{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 26px;
+                    /* identical to box height, or 81% */
+                    
+                    
+                    color: #424242;
+                    
+                    opacity: 0.8;
+                }
+                .main2-bottom__hr{
+                    width: 133px;
+                    margin: 25px 0 45px 0;
+                    border: 2px solid #55A630;
+                }
+                p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 33px;
+                    /* or 132% */
+                    
+                    
+                    color: #424242;
+                    
+                    opacity: 0.8;
+                }
+            }
+            
         }
     }
 }
