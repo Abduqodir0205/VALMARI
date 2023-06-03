@@ -366,3 +366,49 @@
         }
     }
 }
+// main4
+
+
+.main__nabor {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 75px;
+    padding-left:85px;
+
+    h1 {
+        margin-bottom: 75px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 115%;
+        letter-spacing: -0.4px;
+        color: #55A630;
+    }
+
+    p {
+        width: 623px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 31px;
+        color: #424242;
+     }
+
+    .btn {
+        width: 100%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 26px;
+        color: #FFFFFF;
+        background: #55A630;
+        padding: 24px 34px ;
+        margin-top: 75px;
+    }
+        .logo{
+            width: 565px;
+     
+         
+        } 
+        
+       
+}
