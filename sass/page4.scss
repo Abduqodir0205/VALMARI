@@ -65,8 +65,6 @@
                         }
                     }
                 }
-                
-               
             }
         }
     }
@@ -99,9 +97,8 @@
 
 // main
 .main1-content__flex{
-    margin-top: 75px;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 .main1__content{
     width: 1036px;
@@ -134,7 +131,6 @@
 }
 .main2{
     .main2__item1{
-        margin-top: 175px;
         display: flex;
         flex-direction: column;
         .main2-item1__top{
