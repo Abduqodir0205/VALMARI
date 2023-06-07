@@ -148,7 +148,9 @@
                 }
                 .bottom__left__btn {
                     margin-top: 51px;
-
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
 
                     .bottom__btn1 {
                         font-weight: 600;
@@ -159,7 +161,6 @@
                         padding: 15px 40px;
                         background: #55A630;
                         border: none;
-                        margin-left: 5px;
                     }
 
 
