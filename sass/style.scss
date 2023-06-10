@@ -38,8 +38,9 @@
 
 #header {
     .header {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding-top: 12px;
         border-bottom: 1px solid rgba(85, 166, 48, 0.5);
@@ -48,7 +49,8 @@
         .nav__left {
             display: flex;
             align-items: center;
-            gap: 22px;
+            justify-content: space-between;
+            gap: 28px;
         }
     }
 
@@ -146,7 +148,6 @@
                     font-size: 20px;
                     line-height: 26px;
                     color: #424242;
-                    margin-top: 71px;
                 }
 
 
@@ -155,6 +156,7 @@
                     font-size: 65px;
                     line-height: 65px;
                     color: #55A630;
+                    margin-top: 30px;
                 }
 
 
@@ -165,20 +167,17 @@
                     color: #424242;
                     margin-top: 20px;
                 }
-<<<<<<< HEAD
                 .bottom__left__btn {
                     margin-top: 51px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-=======
 
                 .bottom__left__btn {
                     display: flex;
                     gap: 20px;
                     margin-top: 51px;
                     z-index: 10;
->>>>>>> 131b13bd52a3f76aa0753d1a52e66ff86af94bbd
 
                     .bottom__btn1 {
                         font-weight: 600;
@@ -223,8 +222,8 @@
         height: 212px;
         background-color: #fff;
         transform: translateY(-30px);
+        margin-top: 200px;
         box-shadow: 1px 3px 8px #000;
-
 
         .card__child h1 {
             font-weight: 700;
@@ -417,5 +416,5 @@
          
         } 
         
-       
+    }
 }
